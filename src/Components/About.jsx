@@ -2,11 +2,16 @@ import React from 'react'
 
 function About() {
   return (
-    <div>
+    <div className="aboutbox">
+
+    <div className='about'>
       <h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque exercitationem nihil, iste, omnis quis ex neque fugiat, molestias maxime dolor eveniet atque suscipit pariatur distinctio asperiores perferendis earum architecto esse?
+        About Me
       </h1>
-        This is About Section
+       <p>
+       I'm a web developer and UI/UX developer. I love to solve design problems, develop new features and design prototypes using different mediums. My work is mainly focused on frontend-development. As for graphic designs, my work mainly involves photo manipulation. Besides, I also like doing photography and videography, where I can express my creative thought process.
+       </p>
+    </div>
     </div>
   )
 }

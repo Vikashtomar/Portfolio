@@ -2,10 +2,17 @@ import React from 'react'
 
 function Skill() {
   return (
-    <div>
-        <h1>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis odit laboriosam pariatur dolorum soluta suscipit iste doloribus illum, repellat vel iure iusto. Veniam repellendus unde nostrum voluptas quam nesciunt laborum?
-        </h1>
+    <div className='skill'>
+
+      <div className="text">
+
+      <h1>WHAT I DO</h1>
+      </div>
+
+      <div className="skillimg">
+        <img src="https://ananthukrish.netlify.app/assets/web-bg.9d410dc2.png" alt="skillpic" />
+       <h1>WEB DEVELOPER</h1>
+      </div>
     </div>
   )
 }

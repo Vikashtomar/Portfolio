@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+ 
+}
+
+
+/*  header part ---------------------------------------------------------------------------- */
+ .head{
+    background-color: #000;
+    position: fixed;
+    width: 100px;
+    height: 100%;
+    text-align: center;
+    justify-content: start;
+    align-items: center;
+
+ }
+
+
+ .head ul li {
+
+    list-style: none;
+ }
+
+ .head ul li a{
+    color: #fff;
+    display: inline-block;
+ 
+    font-size: 25px;
+
+ }
+   .head li i{
+     padding: 38px;
+ }
+
+ /*Home part css ------------------------------------------------------------------------------------ */
+ 
+ .main-box{
+    width: 400px;
+    height: 100vh;
+    background-color: #000;
+  
+ }
+ .pic{
+    width: 300px;
+    height: 400px;
+    
+ }
+ .pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: -11px 12px #fff;
+    margin-left: 250px;
+    margin-top: 50%;
+   
+
+}
+
+.uname {
+    
+    position: relative;
+    top: -132px;
+    left: 700px;
+    width: 488px;
+}
+ 
+    .uname h1, .uname p{
+     border-left: 4px solid #000;
+    margin-left: 10px;
+    padding-left: 30px;
+    color: #000;
+    font-weight: bold;
+    font-size: 30px;
+ }
+ .uname button{
+    margin: 15px;
+    padding: 10px 10px;
+    width: 180px;
+    height: 45px;
+    background-color: #fff;
+    font-size: 18px;
+ }
+ .uname button:hover{
+    color: #fff;
+    background-color: #000;
+ }
+
+
+ /* ------------------About Page ------------------------------------ */
+ 
+ .aboutbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+     background-color: #e0e0e0;
+    
+}
+.about{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    width: 900px;
+    height: 400px;
+    padding: 10px;
+    border-radius: 10px;
+
+   box-shadow:inset -3px -3px 7px #ffffff73, inset 3px 3px 5px rgba(94,104,121,.288);
+   background-color: #e0e0e0;
+   
+
+ }
+/* --------------------Skill CSS ---------------------- */
+.skill{
+    width: 100%;
+    height: 700px;
+        
+}
+.text{
+  padding-top: 60px;
+    text-align: center;
+    }
+.skillimg{
+    width: 350px;
+    height: 300px;
+    
+    padding: 10px;
+    margin-left: 200px;
+    border-radius: 10px;
+    box-shadow: 10px  10px 10px #f4f1f1;
+    position: relative;
+}
+.skillimg h1 {
+    position: absolute;
+    top: 272px;
+    left: 80px;
+    font-size: 21px;
+}
+
+.skillimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ------------Work CSS ----------------------------------------- */
+
+ .work{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+    
+ }
+ .work p{
+    width: 100%;
+    margin: 20px;
+ }
+ 
+ 
+ .workcontent{
+    padding: 20px;
+    margin-left: 200px;
+
+
+ }
