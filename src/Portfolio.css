@@ -171,8 +171,22 @@ font-family: 'Roboto', sans-serif;
  
  
  .workcontent{
-    padding: 20px;
+    padding-top: 14%;
     margin-left: 200px;
+    /* padding-bottom: 40px; */
+    font-size: 18px;
 
+ }
+ .workcontent p:nth-child(1){
+   font-size: 30px;
+   font-weight: 350;
+ }
 
+ .workcontent p:nth-child(2){
+   font-size: 18px;
+   
+ }
+
+ .workcontent p:nth-child(3){
+      font-weight: 350;
  }
