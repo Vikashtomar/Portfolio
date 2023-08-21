@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Work() {
-  return (
+return (
     <>
     <div className='work'>
       
@@ -55,10 +55,10 @@ function Work() {
           <p>Frondend Developer</p>
             <p>
             - Create web application front end as per design comps and information architecture
-- Work with other developers to ensure that the website is functional and visually appealing
-- Collect feedback from design and technical staff on website development needs.
-- Plan the layout of the website
-- Ensure that the website is optimized for various devices
+  - Work with other developers to ensure that the website is functional and visually appealing
+  - Collect feedback from design and technical staff on website development needs.
+ - Plan the layout of the website
+   - Ensure that the website is optimized for various devices
            </p> 
          
        
