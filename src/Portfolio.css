@@ -172,14 +172,14 @@ font-family: 'Roboto', sans-serif;
  
  .workcontent{
     padding-top: 14%;
-    margin-left: 200px;
+    margin-left: 201px;
     /* padding-bottom: 40px; */
     font-size: 18px;
 
  }
  .workcontent p:nth-child(1){
    font-size: 30px;
-   font-weight: 350;
+   font-weight: 351;
  }
 
  .workcontent p:nth-child(2){

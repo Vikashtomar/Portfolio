@@ -9,10 +9,8 @@ import Work from "./Components/Work";
 import Portfolio from "./Components/Portfolio";
 import Qualification from "./Components/Qualification";
 import Contact from "./Components/Contact";
- import Education from './Components/Education'
+import Education from './Components/Education'
 import Internship from "./Components/Internship";
-
-
 
 function App() {
   return (
