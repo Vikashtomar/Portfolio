@@ -13,7 +13,7 @@ import Education from './Components/Education'
 import Internship from "./Components/Internship";
 
 function App() {
-  return (
+  return ( 
     <>
     <div className="hello">
 
